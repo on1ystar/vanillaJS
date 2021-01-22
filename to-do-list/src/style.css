@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+.add-inputbox {
+  -webkit-transition: all 0.3s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #dddddd;
+}
+
+.add-inputbox:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+li {
+  font-size: 150%;
+}
+
+li span {
+  margin-right: 5px;
+}
+
+li button {
+  height: 32px;
+}
